@@ -1,0 +1,14 @@
+#!/bin/sh
+#set -x
+#26-06-2014 : fix PCN No for PREPAID subs
+
+exec < /dev/null
+
+if [ "x"$1 = "x" ] ; then
+        echo " "
+        echo "usage : sub [MSISDN]"
+        echo " "
+        echo "rhinocho_f_ilham@telkomsel.co.id"
+        echo " "
+        exit
+fi
